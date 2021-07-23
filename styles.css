@@ -1,1 +1,72 @@
 /* Write your CSS here! */
+
+element.style {
+}
+
+figure {
+margin: 0;
+padding: 0;
+text-align: center;
+}
+header, main, footer {
+background-color: #ddd;
+font-size: 1.6em;
+}
+body {
+width: 100%;
+max-width: 1024px;
+margin: 0 auto;
+background-color: #999;
+font-size: 120%;
+}
+html {
+font-family: sans-serif;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+      body {
+        background-image: url('/Users/abdulbashirabdulzahir/Desktop/LC101/assignment-4-html-me-something-LatifMalik2020/images/bg.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        background-size: cover;
+      }
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      * {box-sizing: border-box}
+      .mySlides1, .mySlides2 {display: none}
+      img {vertical-align: middle;}
+      
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+      
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a grey background color */
+      .prev:hover, .next:hover {
+        background-color: #f1f1f1;
+        color: black;
+      }
