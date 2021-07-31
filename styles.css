@@ -1,1 +1,82 @@
-/* Write your CSS here! */
+
+
+html { 
+    background: url("./images/spac.jpeg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .button1 {
+    background-color: #0f0f0f;; 
+    border: 7px;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+  }
+  .button2 {
+    background-color: #f44336;
+    border: 7px;
+    color: rgb(23, 122, 14);
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+  }
+  .button3 {
+    background-color:#4CAF50;; 
+    border: 7px;
+    color: rgb(252, 10, 10);
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+  }
+
+body{
+    margin: 8px;
+    display: block;
+};
+.waveflag{
+    border-radius: 20%;
+    width: 50px;
+    height: 50px   
+}
+
+/*
+
+*/
+#mainHeading{
+    color:red
+}
+.funParagraph{
+    color:green
+}
+
+
+
+.iconDetails {
+    margin-left:2%;
+   float:left; 
+   height:150px;
+   width:40px; 
+   } 
+ 
+   .footer{
+    background-image: "./images/spac.jpeg";
+    margin:0;
+    padding:0;
+    width:90vw;
+    height:22.5vh;
+    float:right;
+    overflow:auto;
+    }
